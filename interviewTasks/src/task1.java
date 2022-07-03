@@ -36,9 +36,9 @@ public class task1 {
                 "0 0 0 0 0 0 0\n" +
                 "0 0 0 0 0 0 0\n");
 
-        System.out.println("insert line: ");
-        int a = numberValidation(scanner.nextInt());
         System.out.println("insert row: ");
+        int a = numberValidation(scanner.nextInt());
+        System.out.println("insert line: ");
         int b = numberValidation(scanner.nextInt());
 
         int[][] place = new int[7][7];
